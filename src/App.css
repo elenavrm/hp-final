@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: antiquewhite;
+}
