@@ -26,20 +26,7 @@ body {
     text-transform: uppercase;
   }
   
-  .btn {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: #fff;
-    background-color: #823437;
-    align-self: center;
-    padding: 10px;
-  }
+
   
   h3 {
     margin-left: 50px;
@@ -63,6 +50,16 @@ body {
     padding: 10px;
     border: none;
     text-transform: uppercase;
+  }
+
+    .show-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #c11b1c;
+    cursor: pointer;
+    font-weight: bolder;
   }
   
   @media all and (max-width: 500px) {

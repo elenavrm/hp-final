@@ -7,7 +7,7 @@ function Book({ book }) {
   return (
     <div>
       <div className="container">
-        <img src={book.image} alt="book cover" width="300px" />
+        <img src={book.image} alt="book cover" width="250px"/>
       </div>
       <div className="container">
         <h2>{book.book}</h2>
@@ -17,7 +17,7 @@ function Book({ book }) {
           {showMore
             ? book.description
             : book.description.substring(0, 111) + '...'}
-          <button onClick={() => setShowMore(!showMore)}>
+          <button  className="show-btn" onClick={() => setShowMore(!showMore)}>
             {showMore ? 'show less' : 'show more'}
           </button>
         </h3>
@@ -27,24 +27,20 @@ function Book({ book }) {
 }
 
 function Books({ booksData }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(Array(booksData.length).fill(0));
 
-  const previousBook = () => {
-    setCurrentIndex((index) => {
-      let newIndex = index - 1;
-      if (newIndex < 0) {
-        newIndex = booksData.length - 1;
-      }
+  const previousBook = (seriesIndex) => {
+    setCurrentIndex((prevIndex) => {
+      const newIndex = [...prevIndex];
+      newIndex[seriesIndex] = (newIndex[seriesIndex] - 1 + booksData[seriesIndex].books.length) % booksData[seriesIndex].books.length;
       return newIndex;
     });
   };
 
-  const nextBook = () => {
-    setCurrentIndex((index) => {
-      let newIndex = index + 1;
-      if (newIndex > booksData.length - 1) {
-        newIndex = 0;
-      }
+  const nextBook = (seriesIndex) => {
+    setCurrentIndex((prevIndex) => {
+      const newIndex = [...prevIndex];
+      newIndex[seriesIndex] = (newIndex[seriesIndex] + 1) % booksData[seriesIndex].books.length;
       return newIndex;
     });
   };
@@ -52,7 +48,7 @@ function Books({ booksData }) {
   return (
     <div>
       <div className="container">
-        <h1>Wizzarding World Book Series</h1>
+        <h1>Wizarding World Book Series</h1>
       </div>
       {booksData.map((element, index) => {
         const { id, name, books } = element;
@@ -61,12 +57,12 @@ function Books({ booksData }) {
             <div className='container'>
               <h2>{id} - {name}</h2>
             </div>
-            <Book book={books[currentIndex]} />
+            <Book book={books[currentIndex[index]]} />
             <div className="container buttonTwo">
-              <button className="btnTwo" onClick={previousBook}>
+              <button className="btnTwo" onClick={() => previousBook(index)}>
                 back
               </button>
-              <button className="btnTwo" onClick={nextBook}>
+              <button className="btnTwo" onClick={() => nextBook(index)}>
                 next
               </button>
             </div>

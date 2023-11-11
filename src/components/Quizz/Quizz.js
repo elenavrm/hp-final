@@ -105,7 +105,8 @@ export default function Quizz () {
                     <div className='intro-text'>
                     There's nothing hidden in your head The Sorting Hat can't see, So try me on and I will tell you where you ought to be.
                     </div>
-                    <button className='start-button button-loader' onClick={() => setShowQuiz(true)}>Start</button>
+                    <button className='start-button button-loader'
+                    onClick={() => setShowQuiz(true)}>Start</button>
                 </div>
         </>
         )}
