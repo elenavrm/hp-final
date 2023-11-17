@@ -34,14 +34,22 @@
     line-height: 110%;
 }
 
-.hedwig {
+.castle {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0; 
-    padding: 0; 
-}
-
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+  
+  .castle img {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
 @media all and (max-width: 500px) {
     .home-title {
         font-size: 35px;
@@ -54,5 +62,9 @@
     .overview {
         width: 350px;
         font-size: 19px;
+    }
+
+    .castle {
+        width: 350px;
     }
 }

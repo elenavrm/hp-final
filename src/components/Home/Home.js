@@ -1,4 +1,4 @@
-import hedwig from './hedwig.png';
+import castle from './castle.png'
 import './styles.css'
 
 function Home() {
@@ -7,8 +7,8 @@ function Home() {
         <div className="home-container">
             <h1 className='home-title'><span className="w">W</span>elcome to  <span className="w">H</span>ogwarts  <span className="w">S</span>chool of <span className="w">W</span>itchcraft and  <span className="w">W</span>izardry</h1>
         </div>
-        <div className='hedwig'>
-            <img src={hedwig} alt='Post Owl' width={'300px'} className='img-centered'/>
+        <div className='castle'>
+            <img src={castle} alt='Hogwarts castle'/>
         </div>
         <div className='home-container'>
             <p className='overview'>
