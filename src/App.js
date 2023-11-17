@@ -26,7 +26,7 @@ function App() {
     <Router>
       <nav>
         <div className={`links ${isMenuOpen ? 'show' : ''}`}>
-          <Link to="/home" className="link"  onClick={closeMenu}>
+          <Link to="/" className="link"  onClick={closeMenu}>
             Home
           </Link>
           <Link to="/quizz" className="link"  onClick={closeMenu}>
@@ -50,7 +50,7 @@ function App() {
         </button>
       </nav>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/quizz" element={<Quizz />} />
         <Route path="/subjects" element={<Subjects />} />
         <Route path="/spells" element={<Spells />} />
