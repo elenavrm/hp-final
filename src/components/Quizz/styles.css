@@ -167,6 +167,8 @@ h1 {
   }
 
   .main-container{
+    position: relative; 
+    z-index: 900;
     justify-content: center;
     align-items: center;
     flex-direction: column;

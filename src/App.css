@@ -85,9 +85,15 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
+    position: relative; 
+    z-index: 1000; 
   }
   .links {
     display: none;
+    position: absolute;
+    top: 50px; 
+    left: 0;
+    z-index: 2;
     flex-direction: column;
     position: absolute;
     left: 0;
@@ -110,5 +116,6 @@ nav {
 
   .burger-btn, .close-btn {
     display: block;
+    z-index: 3; 
   }
 }
