@@ -36,7 +36,7 @@ function App() {
             Subjects
           </Link>
           <Link to="/spells" className="link" onClick={closeMenu}>
-            Spells
+            Spellbook
           </Link>
           <Link to="/books" className="link" onClick={closeMenu}>
             Books
