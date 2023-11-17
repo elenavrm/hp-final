@@ -7,8 +7,8 @@ function Home() {
         <div className="home-container">
             <h1 className='home-title'><span className="w">W</span>elcome to  <span className="w">H</span>ogwarts  <span className="w">S</span>chool of <span className="w">W</span>itchcraft and  <span className="w">W</span>izardry</h1>
         </div>
-        <div className='home-container'>
-            <img className='hedwig' src={hedwig} alt='hedwig' width={'300px'}/>
+        <div className='hedwig'>
+            <img src={hedwig} alt='Post Owl' width={'300px'} className='img-centered'/>
         </div>
         <div className='home-container'>
             <p className='overview'>

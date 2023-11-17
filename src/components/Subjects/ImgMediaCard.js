@@ -16,7 +16,12 @@ const ImgMediaContent = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-around', gap: '20px', flexWrap: 'wrap' }}>
+    <div style={{ 
+        display: 'flex', 
+        justifyContent: 'space-around', 
+        gap: '20px', 
+        flexWrap: 'wrap',
+        marginBottom: '50px' }}>
       {CardData.map((card, index) => (
         <Card key={index} 
         sx={{ 
