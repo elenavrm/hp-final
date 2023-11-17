@@ -74,7 +74,7 @@ function Quizz() {
     return (
         <div>
             <div className="main-container">
-            <h1 className='main-title'>The Sorting Hat</h1>
+            <h1>The Sorting Hat</h1>
             </div>
             <div className="main-container">
             <div className='main' style={{

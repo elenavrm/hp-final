@@ -33,7 +33,7 @@
 
 .hedwig {
     margin-bottom:1px;
-    margin-bottom: 1px;
+    margin-bottom:1px;
 }
 
 @media all and (max-width: 500px) {
@@ -47,5 +47,6 @@
 
     .overview {
         width: 350px;
+        font-size: 19px;
     }
 }

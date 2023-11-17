@@ -56,7 +56,6 @@ function App() {
         <Route path="/spells" element={<Spells />} />
         <Route path="/books" element={<Books />} />
       </Routes>
-
       <Stars />
     </Router>
   );

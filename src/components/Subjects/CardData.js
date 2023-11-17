@@ -30,7 +30,7 @@ export const CardData = [
       imageUrl: 'https://images.ctfassets.net/usf1vwtuqyxm/6bZYEWQWhqU0yI48ayiguC/728737ed42915dd64187b28a37570717/PomonaSprout_WB_F1_SproutHoldingMandrake_Still_080615_Land.jpg?w=914&q=70&fm=webp', 
     },
     {
-      title: 'History of magic',
+      title: 'History of Magic',
       professor: 'Professor Binns ',
       description: 'History of Magic was a core class and subject taught at Hogwarts School of Witchcraft and Wizardry. This class was a study of magical history. This was one of the subjects where the use of magic practically was not necessary. History of Magic was taught from the first year to the fifth, and was completed with an O.W.L.',
       imageUrl: 'https://www.azcentral.com/gcdn/-mm-/13e91021ee7e2fe7c62a54fe4ec9f15d9f63fecc/c=0-0-2996-1693/local/-/media/2016/03/28/Phoenix/Phoenix/635947826708926352-Portrait-Gallery-in-Hogwarts-Castle-WWoHP-at-USH.jpg?width=1320&height=746&fit=crop&format=pjpg&auto=webp', 

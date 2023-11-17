@@ -2,12 +2,7 @@
     display: flex;
     justify-content: center;
   }
-  
-  h1 {
-    font-size: 60px;
-    font-family: 'MonteCarlo', cursive;
-    font-weight: 300;
-  }  
+
   .main-book {
     font-size: 46px;
     font-family: 'Montecarlo', cursive;
