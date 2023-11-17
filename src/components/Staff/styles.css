@@ -1,0 +1,28 @@
+.change-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.change {
+    background-color: transparent;
+    width: 150px;
+    margin: 0 10px;
+    border: 1px solid #bb9644;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fefefe;
+    font-weight: bolder;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 500px) {
+    .change {
+        width: 100px;
+        font-size: 13px;
+    }
+}

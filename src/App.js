@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Subjects from './components/Subjects/Subjects';
 import './App.css';
 import Stars from './Stars';
+import Staff from './components/Staff/Staff';
 
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
           <Link to="/subjects" className='link' onClick={closeMenu}>
             Subjects
           </Link>
+          <Link to="/staff" className='link' onClick={closeMenu}>
+            Staff
+          </Link>
           <Link to="/spells" className="link" onClick={closeMenu}>
             Spellbook
           </Link>
@@ -53,6 +57,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/quizz" element={<Quizz />} />
         <Route path="/subjects" element={<Subjects />} />
+        <Route path="/staff" element={<Staff />} />
         <Route path="/spells" element={<Spells />} />
         <Route path="/books" element={<Books />} />
       </Routes>
