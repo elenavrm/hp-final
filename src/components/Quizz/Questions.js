@@ -3,13 +3,13 @@ export const questions = [
         questionText: 'What class interests you the most?',
         options: [
             { optionText: 'Charms', gryffindor: 2, slytherin: 1, ravenclaw: 2, hufflepuff: 1 },
-            { optionText: 'Potion making', gryffindor: 1, slytherin: 1, ravenclaw: 3, hufflepuff: 1 },
-            { optionText: 'Defence against dark arts', gryffindor: 3, slytherin: 3, ravenclaw: 1, hufflepuff: 0 },
+            { optionText: 'Potions', gryffindor: 1, slytherin: 1, ravenclaw: 3, hufflepuff: 1 },
+            { optionText: 'Defence against the dark arts', gryffindor: 3, slytherin: 3, ravenclaw: 1, hufflepuff: 0 },
             { optionText: 'Transfiguration', gryffindor: 1, slytherin: 2, ravenclaw: 1, hufflepuff: 3 },
         ],
     },
     {
-        questionText: "If you were part of a team project, you would...",
+        questionText: "If you were a part of a team project, you would...",
         options: [
             { optionText: 'Do most of the work', gryffindor: 1, slytherin: 3, ravenclaw: 1, hufflepuff: 1 },
             { optionText: 'Only do what you know', gryffindor: 1, slytherin: 1, ravenclaw: 1, hufflepuff: 2 },
@@ -32,17 +32,17 @@ export const questions = [
             { optionText: 'Absolutely', gryffindor: 0, slytherin: 2, ravenclaw: 0, hufflepuff: 1 },
             { optionText: 'Maybe', gryffindor: 1, slytherin: 2, ravenclaw: 1, hufflepuff: 1 },
             { optionText: 'No', gryffindor: 2, slytherin: 1, ravenclaw: 1, hufflepuff: 2 },
-            { optionText: 'I don\'t play quidditch', gryffindor: 1, slytherin: 0, ravenclaw: 1, hufflepuff: 2 },
+            { optionText: `I don't play quidditch`, gryffindor: 1, slytherin: 0, ravenclaw: 1, hufflepuff: 2 },
         ],
     },
     
     {
-        questionText: 'Among the following, Who is your favorite professor?',
+        questionText: 'Among the following, who is your favorite professor?',
         options: [
             { optionText: 'Severus Snape', gryffindor: 1, slytherin: 3, ravenclaw: 1, hufflepuff: 1 },
             { optionText: 'Minerva McGonagall', gryffindor: 1, slytherin: 1, ravenclaw: 1, hufflepuff: 3 },
             { optionText: 'Remus Lupin', gryffindor: 3, slytherin: 1, ravenclaw: 1, hufflepuff: 1 },
-            { optionText: 'Alastor \'Mad-Eye\' Moody', gryffindor: 1, slytherin: 1, ravenclaw: 3, hufflepuff: 1 },
+            { optionText: `Alastor 'Mad-Eye' Moody`, gryffindor: 1, slytherin: 1, ravenclaw: 3, hufflepuff: 1 },
         ],
     },
     {
@@ -57,14 +57,14 @@ export const questions = [
     {
         questionText: 'How would you like to see yourself in the magic Mirror of Erised?',
         options: [
-            { optionText: 'Rich beyond measure', gryffindor: 0, slytherin: 2, ravenclaw: 1, hufflepuff: 1 },
+            { optionText: 'Rich beyond measures', gryffindor: 0, slytherin: 2, ravenclaw: 1, hufflepuff: 1 },
             { optionText: 'Highly esteemed', gryffindor: 1, slytherin: 2, ravenclaw: 2, hufflepuff: 1 },
             { optionText: 'Having wonderful adventures', gryffindor: 1, slytherin: 1, ravenclaw: 2, hufflepuff: 1 },
             { optionText: 'Surrounded with loved ones', gryffindor: 4, slytherin: 1, ravenclaw: 1, hufflepuff: 3 },
         ],
     },
     {
-        questionText: 'If you could own a magic creature, which would you pick?',
+        questionText: 'If you could own a magic creature, which one would you pick?',
         options: [
             { optionText: 'Unicorn', gryffindor: 1, slytherin: 0, ravenclaw: 1, hufflepuff: 2 },
             { optionText: 'Phoenix', gryffindor: 3, slytherin: 1, ravenclaw: 3, hufflepuff: 2 },
@@ -82,7 +82,7 @@ export const questions = [
         ],
     },
     {
-        questionText: ' Which of the following qualities do you value most in a friend?',
+        questionText: 'Which of the following qualities do you value most in a friend?',
         options: [
             { optionText: 'Loyalty', gryffindor: 2, slytherin: 0, ravenclaw: 0, hufflepuff: 2 },
             { optionText: 'Intelligence', gryffindor: 1, slytherin: 2, ravenclaw: 2, hufflepuff: 0 },

@@ -1,0 +1,91 @@
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-family: 'MonteCarlo', cursive;
+    font-weight: 300;
+  }  
+  .main-book {
+    font-size: 46px;
+    font-family: 'Montecarlo', cursive;
+    font-weight: 400;
+    color: gold;
+  }
+
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff8ee;
+    font-weight: 300;
+    font-size: 34px;
+  }
+  h3 {
+    color: #fff8ee;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  
+  }
+
+  .book-cover {
+    border-radius: 7px;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  
+  .btnOne {
+    background-color: #f05a3b;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+  }
+
+    .show-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f05a3b;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  
+  @media all and (max-width: 500px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    .main-book {
+      font-size: 25px;
+    }
+
+    .book-cover {
+      width: 165px;
+
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    h3, .show-btn {
+      font-size: 14px;
+    }
+
+    .btnOne {
+      font-size: 15px;
+      padding: 5px;
+    }
+}

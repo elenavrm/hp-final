@@ -1,0 +1,19 @@
+.sub-container {
+    display: flex;
+    justify-content: center;
+}
+
+h4 , h5 {
+    color: #000;
+}
+
+
+.show-button {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ab0b0f;
+    cursor: pointer;
+    font-weight: bolder;
+}

@@ -1,7 +1,7 @@
 export const BooksData = [
     {
         id: 1,
-        name: "Harry Potter books",
+        name: "HARRY POTTER COLLECTION",
         books: [
             {
                 image: 'https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fproducts%2Fbooks%2FUS%2Frectangle-1.jpg&w=1320&q=75',
@@ -47,7 +47,7 @@ export const BooksData = [
     },
     {
         id: 2,
-        name: 'Fantastic Beasts',
+        name: 'FANTASTIC BEASTS',
         books: [
             {
                 image: 'https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fproducts%2Fbooks%2FUS%2Frectangle-11.jpg&w=1320&q=75',
@@ -70,7 +70,7 @@ export const BooksData = [
     }, 
     {
         id: 3,
-        name: 'Hogwarts Library',
+        name: 'HOGWARTS BOOKS',
         books: [
             {
                 image: 'https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fproducts%2Fbooks%2FUS%2Frectangle-9.jpg&w=1320&q=75',

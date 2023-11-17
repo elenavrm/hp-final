@@ -1,0 +1,51 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    color: #c09b46;
+    font-family: 'Montecarlo', cursive;
+    font-size: 40px;
+}
+
+.w {
+    font-size: 90px;
+    color: #c09b46;
+    text-shadow: #FC0 3px 0 10px;
+    font-family: 'Montecarlo', cursive;
+}
+
+.space {
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Montecarlo';
+}
+
+.overview {
+    width: 700px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 110%;
+}
+
+.hedwig {
+    margin-bottom:1px;
+    margin-bottom: 1px;
+}
+
+@media all and (max-width: 500px) {
+    .home-title {
+        font-size: 35px;
+    }
+
+    .w {
+        font-size: 40px;
+    }
+
+    .overview {
+        width: 350px;
+    }
+}
