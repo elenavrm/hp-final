@@ -12,9 +12,10 @@
 }
 
 .w {
-    font-size: 90px;
+    font-size: 75px;
+    font-weight: 100;
     color: #c09b46;
-    text-shadow: #FC0 3px 0 10px;
+    text-shadow: 2px 2px 8px gold;
     font-family: 'Montecarlo', cursive;
 }
 
@@ -26,7 +27,7 @@
 
 .overview {
     width: 700px;
-    font-size: 22px;
+    font-size: 19px;
     font-family: 'Open Sans', sans-serif;
     line-height: 110%;
 }

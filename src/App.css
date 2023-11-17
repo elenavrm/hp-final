@@ -3,6 +3,7 @@
 .star {
   position: absolute;
   pointer-events: none;
+  z-index: 9999;
   animation: sparkle 1s infinite linear;
 }
 
