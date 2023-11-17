@@ -3,6 +3,7 @@
 .star {
   position: absolute;
   pointer-events: none;
+  animation: sparkle 1s infinite linear;
 }
 
 .star:before, .star:after {
@@ -22,6 +23,15 @@
   background: gold;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@keyframes sparkle {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 /*NAV*/
@@ -57,6 +67,7 @@ nav {
   color: #fff;
   background-color: transparent;
   border: none;
+  margin-right: 80px;
 }
 
 .close-btn {

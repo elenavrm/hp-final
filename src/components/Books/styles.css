@@ -82,10 +82,13 @@
   
     h3, .show-btn {
       font-size: 14px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     .btnOne {
       font-size: 15px;
-      padding: 5px;
+      width: 70px;
+      padding: 7px;
     }
 }

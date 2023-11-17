@@ -45,7 +45,10 @@ const ImgMediaContent = () => {
                 }}>
               {card.professor}
             </Typography>
-            <Typography variant="body2" color="#000" fontFamily={'Open Sans'}>
+            <Typography variant="body2" 
+                color="#000" 
+                fontFamily={'Open Sans'}
+                fontWeight={'bolder'}>
               {showMore[index]
                 ? card.description
                 : `${card.description.substring(0, 107)}...`}
