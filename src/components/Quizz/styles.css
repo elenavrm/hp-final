@@ -201,12 +201,20 @@ h1 {
     align-self: center;
   }
 
+  .btnAnswer:hover {
+    background-color: transparent;
+  }
+
   .start-button {
     font-size: 30px;
     width: 150px;
     padding: 11px;
+    background-color: #a60609;
   }
 }
+
+
+
 
 
 
