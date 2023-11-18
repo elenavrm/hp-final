@@ -47,11 +47,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px; 
-    margin-bottom: 10px; 
-  }
-  
-  .castle img {
+    margin-bottom: 0; 
+}
+
+.castle img {
     display: block;
     width: 100%;
     max-width: 650px;
