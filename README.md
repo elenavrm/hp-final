@@ -9,7 +9,7 @@ Welcome to the magical world of Hogwarts School of Witchcraft and Wizardry! This
 * *Spellbook*: Access an extensive spellbook from the API to learn new spells and enchantments.
 * *Professors and Staff Information*: Discover the dedicated faculty and staff members at Hogwarts School of Witchcraft and Wizardry. The app provides information about the diverse roles, including professors specializing in various subjects, dedicated caretakers, librarians, and the caring nurses. Thanks to the implemented filter method, sorting between professors and staff members becomes effortless. Explore the detailed descriptions and backgrounds of each staff member according to their respective roles, making it a seamless experience to navigate between the two categories. Feel free to explore the rich details and distinct roles of professors and staff members with ease, making your journey through the magical world of Hogwarts more immersive and enjoyable.
 * *Book Collection*: Explore the collection of magical books available at Hogwarts.
-* *Nice and catchy UI for a great use experience.
+* *Nice and catchy UI* for a great use experience.
 
 ## Demo 🪄
 Check out the Hogwarts React App in action! [Hogwarts Journey](https://hogwarts-hp.netlify.app/)
