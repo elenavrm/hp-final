@@ -18,9 +18,9 @@ Check out the Hogwarts React App in action! [Hogwarts Journey](https://hogwarts-
 
 This project is built using:
 
-- **React**: Utilizing the power and flexibility of React to create a dynamic and interactive user experience.
+- **React**: Utilized the power and flexibility of React to create a dynamic and interactive user experience.
 - **React Router**: Implemented React Router for managing navigation and enabling a multi-page user experience within a single-page application.
-- **React Hooks**: Leveraging a variety of React hooks to manage state, effects, and more, ensuring smooth functionality.
+- **React Hooks**: Leveraged a variety of React hooks to manage state, effects, and more, ensuring smooth functionality.
 - **Responsive Design**: Crafted with responsiveness in mind, the app provides an optimized experience across various devices.
 - **Customized Loader**: Implemented loader for a seamless user experience during data fetching.
 - **Material-UI (MUI)**: Leveraged Material-UI components for building UI elements, and customized extensively to align with specific design requirements.
