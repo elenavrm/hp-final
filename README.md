@@ -18,10 +18,6 @@ Check out the Hogwarts React App in action! [Hogwarts Journey](https://hogwarts-
 
 This project is built using:
 
-Technologies Used 🛠️
-
-This project is built using:
-
 - **React**: Utilizing the power and flexibility of React to create a dynamic and interactive user experience.
 - **React Router**: Implemented React Router for managing navigation and enabling a multi-page user experience within a single-page application.
 - **React Hooks**: Leveraging a variety of React hooks to manage state, effects, and more, ensuring smooth functionality.
