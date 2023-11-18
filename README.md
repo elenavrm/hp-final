@@ -1,4 +1,4 @@
-# Hogwarts React App 🪄✨
+# Hogwarts Journey React App 🪄✨
 
 Welcome to the magical world of Hogwarts School of Witchcraft and Wizardry! This is a React-based web application designed to immerse you in the mystical universe of Harry Potter. Whether you're here to discover your Hogwarts House, explore subjects, delve into spellcasting, or dive into the enchanting book collection, this app is your ticket to an unforgettable journey.
 
