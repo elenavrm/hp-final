@@ -10,11 +10,20 @@
 .home-title {
     color: #c09b46;
     font-family: 'Montecarlo', cursive;
+    font-size: 75px;
+    margin-bottom: 0;
+}
+
+.rest {
+    color: #c09b46;
+    font-family: 'Montecarlo', cursive;
     font-size: 40px;
+    text-align: center;
+    margin-top: 0;
 }
 
 .w {
-    font-size: 75px;
+    font-size: 85px;
     font-weight: 100;
     color: #c09b46;
     text-shadow: 2px 2px 8px gold;
@@ -53,10 +62,15 @@
 @media all and (max-width: 500px) {
     .home-title {
         font-size: 35px;
+        text-align: center;
     }
 
     .w {
         font-size: 40px;
+    }
+
+    .rest {
+        font-size: 30px;
     }
 
     .overview {
