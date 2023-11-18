@@ -27,6 +27,7 @@ This project is built using:
 - **React Hooks**: Leveraging a variety of React hooks to manage state, effects, and more, ensuring smooth functionality.
 - **Responsive Design**: Crafted with responsiveness in mind, the app provides an optimized experience across various devices.
 - **Customized Loader**: Implemented loader for a seamless user experience during data fetching.
+- **Material-UI (MUI)**: Leveraged Material-UI components for building UI elements, and customized extensively to align with specific design requirements.
 - **Customized Cursor**: Experience the magic with a custom cursor that sparkles and shines.
 - **External API Integration**: Utilized external API to access and display dynamic data within the application.
 
