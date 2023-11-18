@@ -9,6 +9,7 @@ Welcome to the magical world of Hogwarts School of Witchcraft and Wizardry! This
 * *Spellbook*: Access an extensive spellbook from the API to learn new spells and enchantments.
 * *Professors and Staff Information*: Discover the dedicated faculty and staff members at Hogwarts School of Witchcraft and Wizardry. The app provides information about the diverse roles, including professors specializing in various subjects, dedicated caretakers, librarians, and the caring nurses. Thanks to the implemented filter method, sorting between professors and staff members becomes effortless. Explore the detailed descriptions and backgrounds of each staff member according to their respective roles, making it a seamless experience to navigate between the two categories. Feel free to explore the rich details and distinct roles of professors and staff members with ease, making your journey through the magical world of Hogwarts more immersive and enjoyable.
 * *Book Collection*: Explore the collection of magical books available at Hogwarts.
+* *Nice and catchy UI for a great use experience.
 
 ## Demo 🪄
 Check out the Hogwarts React App in action! [Hogwarts Journey](https://hogwarts-hp.netlify.app/)
@@ -17,10 +18,18 @@ Check out the Hogwarts React App in action! [Hogwarts Journey](https://hogwarts-
 
 This project is built using:
 
-* **React**: Utilizing the power and flexibility of React to create a dynamic and interactive user experience.
-* **Hooks**: Leveraging a variety of React hooks to manage state, effects, and more, ensuring smooth functionality.
-* **Responsive Design**: Crafted with responsiveness in mind, the app provides an optimized experience across various devices.
-* **Customized Cursor**: Experience the magic with a custom cursor that sparkles and shines.
+Technologies Used 🛠️
+
+This project is built using:
+
+- **React**: Utilizing the power and flexibility of React to create a dynamic and interactive user experience.
+- **React Router**: Implemented React Router for managing navigation and enabling a multi-page user experience within a single-page application.
+- **React Hooks**: Leveraging a variety of React hooks to manage state, effects, and more, ensuring smooth functionality.
+- **Responsive Design**: Crafted with responsiveness in mind, the app provides an optimized experience across various devices.
+- **Customized Loader**: Implemented loader for a seamless user experience during data fetching.
+- **Customized Cursor**: Experience the magic with a custom cursor that sparkles and shines.
+- **External API Integration**: Utilized external API to access and display dynamic data within the application.
+
 
 ## Credits 🙌
 
