@@ -23,14 +23,14 @@ export const data = [
     {
         person: 'Dolores Umbridge',
         title: 'Defence Against the Dark Arts|Headmistress',
-        description: `The Defence Against the Dark Arts teacher during the specific period at Hogwarts. She was appointed by the Ministry of Magic to address the rumours concerning Voldemort's return that extended from there the previous summer. Umbridge extracted control, becoming Hogwarts' first and only High Inquisitor, and briefly Headmistress after Dumbledore took responsibility for Dumbledore's Army.`,
+        description: `Dolores Jane Umbridge debuted as the Defence Against the Dark Arts professor during a specific time at Hogwarts. Over the course of that year, she manages to create and claim the office of Hogwarts High Inquisitor, and later declares herself Headmistress of Hogwarts.`,
         searchTerm: 'professor',
         imageUrl: 'https://images.ctfassets.net/usf1vwtuqyxm/1NWzkqDiUkEoWSIQaGsqWu/769dd6daec7a67667f95f54c02e0f9c0/DoloresUmbridge_WB_F5_UmbridgeSmiling_Still_080615_Land.jpg?w=914&q=70&fm=jpg'
     },
     {
         person: 'Filius Flitwick',
         title: 'Charms',
-        description: `The Charms teacher and Head of Ravenclaw House for many years. He is also shown to be the director of the school's choir.`,
+        description: `The Charms teacher and Head of Ravenclaw House for many years and is in charge of teaching his students everything from Cheering Charms to making objects fly - combining accurate incantation enunciation with the precise wand movements (like the 'swish and flick').. He is also shown to be the director of the school's choir.`,
         searchTerm: 'professor',
         imageUrl: 'https://www.slashfilm.com/img/gallery/harry-potters-professor-flitwick-was-a-role-warwick-davis-felt-destined-to-play/intro-1676323990.jpg'
     },
@@ -44,7 +44,7 @@ export const data = [
     {
         person: 'Minerva McGonagall',
         title: 'Transfiguration|Deputy Headmistress|Headmistress',
-        description: `The Transfiguration teacher and Head of Gryffindor House for decades. Deputy Headmistress for many years. Temporary Headmistress when Dumbledore was sacked. Temporary Headmistress after Dumbledore's death and revealed to be the Headmistress soon after.`,
+        description: `The Transfiguration teacher and Head of Gryffindor House for decades, and a proud member of Order of the Phoenix. Professor McGonagall is as well a Deputy Headmistress, and a temporary Headmistress when Dumbledore was sacked. Temporary Headmistress after Dumbledore's death and revealed to be the Headmistress soon after.`,
         searchTerm: 'professor',
         imageUrl: 'https://www.slashfilm.com/img/gallery/wearing-a-harry-potter-witchs-wardrobe-wasnt-fun-for-maggie-smith/intro-1658413418.jpg'
     },
