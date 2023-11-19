@@ -53,7 +53,7 @@ const ImgMediaCard = ({ people }) => {
             <Typography variant="body2" 
                 color="#000" 
                 fontFamily={'Open Sans'}
-                fontSize={'22px'}
+                fontSize={'20px'}
                 textAlign={'justify'}
                 >
               {showMore[index]

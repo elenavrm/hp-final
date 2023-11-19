@@ -70,9 +70,9 @@ const ImgMediaContent = () => {
             <Typography variant="body2" 
               color="#000" 
               fontFamily={'Open Sans'}
-              fontSize={'22px'}
+              fontSize={'20px'}
               textAlign={'justify'}
-              fontWeight={'bolder'}>
+              >
                     {showMore[index]
                 ? card.description
                 : `${card.description.substring(0, 101)}...`}

@@ -6,7 +6,7 @@
   .main-book {
     font-size: 46px;
     font-family: 'Montecarlo', cursive;
-    font-weight: 400;
+    font-weight: 300;
     color: #fff8ee;
     text-shadow: 2px 2px 8px yellow;
   }
@@ -20,7 +20,7 @@
 
   h3 {
     color: #fff8ee;
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
     margin-left: 100px;
     margin-right: 100px;
