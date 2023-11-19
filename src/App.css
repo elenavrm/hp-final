@@ -17,7 +17,7 @@
 
 .star:before {
   color: transparent;
-  text-shadow: 0 0 7px rgb(214, 214, 135);
+  text-shadow: 0 0 8px rgb(214, 214, 135);
 }
 
 .star:after {
@@ -114,6 +114,7 @@ nav {
 
   .link {
     padding: 10px;
+    text-shadow: 2px 2px 8px yellow;
   }
 
   .burger-btn, .close-btn {
