@@ -45,8 +45,8 @@ const ImgMediaCard = ({ people }) => {
               sx={{ 
                 color: '#000', 
                 fontFamily: 'Open Sans',
-                fontSize: '25px',
-                fontWeight: 'bolder'
+                fontSize: '23px',
+                fontWeight: 'bold'
                 }}>
               {card.title}
             </Typography>
