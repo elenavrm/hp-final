@@ -56,6 +56,7 @@
     background: none;
     border: none;
     font-size: 20px;
+    text-align: justify;
     font-family: 'Open Sans', sans-serif;
     color: #f05a3b;
     cursor: pointer;

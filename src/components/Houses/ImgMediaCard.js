@@ -71,11 +71,12 @@ const ImgMediaContent = () => {
               color="#000" 
               fontFamily={'Open Sans'}
               fontSize={'20px'}
+              fontWeight={'bold'}
               textAlign={'justify'}
               >
                     {showMore[index]
                 ? card.description
-                : `${card.description.substring(0, 101)}...`}
+                : `${card.description.substring(0, 101) + '...'}`}
               <button className="showBtn" onClick={() => toggleShowMore(index)}>
                 {showMore[index] ? 'show less' : 'show more'}
               </button>

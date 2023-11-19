@@ -6,6 +6,7 @@
 
 .showBtn {
     border: none;
+    text-align: justify;
     background-color: transparent;
     font-size: 22px;
     font-weight: bolder;
