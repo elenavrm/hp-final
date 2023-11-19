@@ -32,19 +32,19 @@ export const data = [
     {
       title: 'History of Magic',
       professor: 'Professor Binns ',
-      description: 'History of Magic was a core class and subject taught at Hogwarts School of Witchcraft and Wizardry. This class was a study of magical history. This was one of the subjects where the use of magic practically was not necessary. History of Magic was taught from the first year to the fifth, and was completed with an O.W.L.',
+      description: 'History of Magic is a core class and subject taught at Hogwarts School of Witchcraft and Wizardry. This class is a study of magical history. This is one of the subjects where the use of magic practically is not necessary. History of Magic is taught from the first year to the fifth, and is completed with an O.W.L.',
       imageUrl: 'https://www.azcentral.com/gcdn/-mm-/13e91021ee7e2fe7c62a54fe4ec9f15d9f63fecc/c=0-0-2996-1693/local/-/media/2016/03/28/Phoenix/Phoenix/635947826708926352-Portrait-Gallery-in-Hogwarts-Castle-WWoHP-at-USH.jpg?width=1320&height=746&fit=crop&format=pjpg&auto=webp', 
     },
     {
       title: 'Potions',
       professor: 'Professor Severus Snape',
-      description: 'A core class (compulsory until O.W.L.) taught at Hogwarts School of Witchcraft and Wizardry, Potions was the study of magical ingredients and brewing potions, taught in the Hogwarts dungeons. Students would study potions such as the Shrinking Solution, Amortentia and the Draught of Peace.',
+      description: 'A core class (compulsory until O.W.L.) at Hogwarts School of Witchcraft and Wizardry, Potions is the study of magical ingredients and brewing potions, taught in the Hogwarts dungeons. Students aare studying potions such as the Shrinking Solution, Amortentia and the Draught of Peace.',
       imageUrl: 'https://pm1.aminoapps.com/6951/e6552479659ae0963cf654d96bd76f288db25279r1-1136-640v2_hq.jpg', 
     },
     {
       title: 'Transfiguration',
       professor: 'Professor McGonagall',
-      description: 'A required class, compulsory until O.W.L., taught at Hogwarts School of Witchcraft and Wizardry, Transfiguraton was the art of turning one thing into another, changing the form and appearance of an object by altering its very molecular structure.',
+      description: 'A required class, compulsory until O.W.L., taught at Hogwarts School of Witchcraft and Wizardry, Transfiguraton is the art of turning one thing into another, changing the form and appearance of an object by altering its very molecular structure.',
       imageUrl: 'https://www.therpf.com/forums/attachments/hqdefault-jpg.987059/', 
     },
     {

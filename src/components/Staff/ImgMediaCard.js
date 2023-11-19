@@ -61,7 +61,7 @@ const ImgMediaCard = ({ people }) => {
                 >
               {showMore[index]
                 ? card.description
-                : `${card.description.substring(0, 115) + '...'}`}
+                : `${card.description.substring(0, 100) + '...'}`}
               <button className="showBtn" onClick={() => toggleShowMore(index)}>
                 {showMore[index] ? 'show less' : 'show more'}
               </button>
