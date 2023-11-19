@@ -4,9 +4,10 @@ Welcome to the magical world of Hogwarts School of Witchcraft and Wizardry! This
 
 ## Features ✨
 
-* *Quiz Sorting Hat*:
+* ###Quiz Sorting Hat:
+  
 Find out which Hogwarts House you belong to by taking the Sorting Hat quiz. Answer a series of questions and discover if you're destined for Gryffindor, Slytherin, Ravenclaw, or Hufflepuff.
-* *Subjects Exploration*:
+* Subjects Exploration*:
 Dive into the fascinating subjects taught at Hogwarts and explore the realm of magical knowledge. From Potions to Herbology, unravel the secrets of each subject.
 *  *Founders*:
 Explore the history of Hogwarts with a dedicated Founders category, showcasing the four great witches and wizards who founded the esteemed school.
