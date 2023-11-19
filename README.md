@@ -61,6 +61,7 @@ This project is built using:
 - **Responsive Design**: Crafted with responsiveness in mind, the app provides an optimized experience across various devices.
 - **Customized Loader**: Implemented loader for a seamless user experience during data fetching.
 - **Material-UI (MUI)**: Leveraged Material-UI components for building UI elements, and customized extensively to align with specific design requirements.
+- **GSAP**
 - **Customized Cursor**: Experience the magic with a custom cursor that sparkles and shines.
 - **External API Integration**: Utilized external API to access and display dynamic data within the application.
 
