@@ -60,7 +60,8 @@ const ImgMediaContent = () => {
                 fontSize={'20px'}
                 fontWeight={'bold'}
                 hyphens={'auto'}
-                word-spacing={'0,5px'}>
+                wordSpacing={'0.5px'}
+                >
               {showMore[index]
                 ? card.description
                 : `${card.description.substring(0, 116) + '...'}`}

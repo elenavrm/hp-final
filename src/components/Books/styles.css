@@ -23,7 +23,7 @@
     font-size: 20px;
     text-align: justify;
     hyphens: auto;
-    word-spacing: 0,5px;
+    word-spacing: 0.5px;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Open Sans', sans-serif;
@@ -43,14 +43,16 @@
   }
   
   .btnOne {
-    background-color: #f05a3b;
+    background-color: transparent;
     width: 150px;
+    border: 1px solid #bb9644;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
+    text-shadow: 2px 2px 8px yellow;
     padding: 10px;
-    border: none;
+    cursor: pointer;
     text-transform: uppercase;
   }
 
@@ -89,7 +91,7 @@
     }
 
     .btnOne {
-      width: 100px;
+      width: 150px;
       padding: 9px;
     }
 }
