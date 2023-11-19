@@ -37,7 +37,7 @@ const ImgMediaCard = ({ people }) => {
             sx={{ 
               color: '#000', 
               fontFamily: 'Montecarlo', 
-              fontSize: '35px', 
+              fontSize: '37px', 
               fontWeight: 'bolder' }}>
               {card.person}
             </Typography>
@@ -45,6 +45,7 @@ const ImgMediaCard = ({ people }) => {
               sx={{ 
                 color: '#000', 
                 fontFamily: 'Open Sans',
+                fontSize: '25px',
                 fontWeight: 'bolder'
                 }}>
               {card.title}
@@ -52,11 +53,13 @@ const ImgMediaCard = ({ people }) => {
             <Typography variant="body2" 
                 color="#000" 
                 fontFamily={'Open Sans'}
-                fontWeight={'bolder'}>
+                fontSize={'22px'}
+                textAlign={'justify'}
+                >
               {showMore[index]
                 ? card.description
                 : `${card.description.substring(0, 107)}...`}
-              <button className="show-button" onClick={() => toggleShowMore(index)}>
+              <button className="showBtn" onClick={() => toggleShowMore(index)}>
                 {showMore[index] ? 'show less' : 'show more'}
               </button>
             </Typography>

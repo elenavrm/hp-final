@@ -7,18 +7,21 @@
     font-size: 46px;
     font-family: 'Montecarlo', cursive;
     font-weight: 400;
-    color: gold;
+    color: #fff8ee;
+    text-shadow: 2px 2px 8px yellow;
   }
 
   h2 {
     font-family: 'Open Sans', sans-serif;
-    color: #fff8ee;
-    font-weight: 300;
+    color: #cfb87b;
+    font-weight: bolder;
     font-size: 34px;
   }
+
   h3 {
     color: #fff8ee;
-    font-size: 18px;
+    font-size: 22px;
+    text-align: justify;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Open Sans', sans-serif;
@@ -27,21 +30,23 @@
   }
 
   .book-cover {
-    border-radius: 7px;
+    border-radius: 9px;
   }
   
   .btn {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom:50px ;
   
   }
   
   .btnOne {
     background-color: #f05a3b;
+    width: 150px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     padding: 10px;
     border: none;
     text-transform: uppercase;
@@ -60,31 +65,28 @@
   @media all and (max-width: 500px) {
     h1 {
       font-size: 40px;
+      text-align: center;
     }
 
     .main-book {
-      font-size: 25px;
+      font-size: 27px;
     }
 
     .book-cover {
-      width: 200px;
-
+      width: 240px;
     }
   
     h2 {
-      font-size: 22px;
+      font-size: 25px;
     }
-  
+
     h3, .show-btn {
-      font-size: 15px;
       margin-left: 20px;
       margin-right: 20px;
     }
 
     .btnOne {
-      font-size: 15px;
-      width: 70px;
-      padding: 7px;
-      margin-bottom:50px ;
+      width: 100px;
+      padding: 9px;
     }
 }

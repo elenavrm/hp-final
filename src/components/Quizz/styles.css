@@ -8,7 +8,7 @@
 }
 
 * {
-  color: #fff;
+  color: #fff8ee;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -128,9 +128,9 @@ h1 {
 
 .intro-text {
   align-self: center;
-  margin-bottom: 0px;
   justify-content: center;
   text-align-last: center;
+  text-align: justify;
   font-size: 16px;
   font-weight: 100;
   margin-top: 5%;
@@ -165,7 +165,11 @@ h1 {
     font-size: 40px;
     align-self: center;
   }
-
+  
+  .intro-text{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .main-container{
     position: relative; 
     z-index: 900;
@@ -196,6 +200,8 @@ h1 {
   .part-two {
     margin-right: 20px;
   }
+
+  
   
   .btnAnswer {
     width: 260px;

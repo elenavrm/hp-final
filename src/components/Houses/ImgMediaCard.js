@@ -42,7 +42,7 @@ const ImgMediaContent = () => {
               sx={{ 
                 color: '#000', 
                 fontFamily: 'Montecarlo', 
-                fontSize: '35px', 
+                fontSize: '45px', 
                 fontWeight: 'bolder' 
               }}>
               {card.name}
@@ -52,6 +52,7 @@ const ImgMediaContent = () => {
               sx={{ 
                 color: '#000', 
                 fontFamily: 'Open Sans',
+                fontSize: '24px',
                 fontWeight: 'bolder'
               }}>
               House Values: {card.houseValues}
@@ -61,6 +62,7 @@ const ImgMediaContent = () => {
               sx={{ 
                 color: '#000', 
                 fontFamily: 'Open Sans',
+                fontSize: '24px',
                 fontWeight: 'bolder'
               }}>
               Head of House: {card.headHouse}
@@ -68,11 +70,13 @@ const ImgMediaContent = () => {
             <Typography variant="body2" 
               color="#000" 
               fontFamily={'Open Sans'}
+              fontSize={'22px'}
+              textAlign={'justify'}
               fontWeight={'bolder'}>
                     {showMore[index]
                 ? card.description
                 : `${card.description.substring(0, 101)}...`}
-              <button className="show-button" onClick={() => toggleShowMore(index)}>
+              <button className="showBtn" onClick={() => toggleShowMore(index)}>
                 {showMore[index] ? 'show less' : 'show more'}
               </button>
             </Typography>

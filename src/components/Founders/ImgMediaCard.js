@@ -46,8 +46,9 @@ const ImgMediaContent = () => {
             </Typography>
             <Typography gutterBottom variant="h6" component="div" 
               sx={{ 
-                color: '#000', 
+                color: '#134024', 
                 fontFamily: 'Open Sans',
+                fontSize: '25px',
                 fontWeight: 'bolder'
                 }}>
               {card.house}
@@ -55,11 +56,13 @@ const ImgMediaContent = () => {
             <Typography variant="body2" 
                 color="#000" 
                 fontFamily={'Open Sans'}
+                textAlign={'justify'}
+                fontSize={'22px'}
                 fontWeight={'bolder'}>
               {showMore[index]
                 ? card.description
                 : `${card.description.substring(0, 104)}...`}
-              <button className="show-button" onClick={() => toggleShowMore(index)}>
+              <button className="showBtn" onClick={() => toggleShowMore(index)}>
                 {showMore[index] ? 'show less' : 'show more'}
               </button>
             </Typography>
