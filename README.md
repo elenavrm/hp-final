@@ -5,45 +5,45 @@ Welcome to the magical world of Hogwarts School of Witchcraft and Wizardry! This
 ## Features ✨
 
  
-## Quiz Sorting Hat:
+### Quiz Sorting Hat:
   
 *Find out which Hogwarts House you belong to by taking the Sorting Hat quiz. Answer a series of questions and discover if you're destined for Gryffindor, Slytherin, Ravenclaw, or Hufflepuff.*
 
-## Subjects Exploration:
+### Subjects Exploration:
   
 *Dive into the fascinating subjects taught at Hogwarts and explore the realm of magical knowledge. From Potions to Herbology, unravel the secrets of each subject.*
 
-## Founders:
+### Founders:
 
 
 *Explore the history of Hogwarts with a dedicated Founders category, showcasing the four great witches and wizards who founded the esteemed school.*
 
  
-## Hogwarts Faculties:
+### Hogwarts Faculties:
 
 
 *Delve into the Faculties category, providing detailed descriptions of each of the four faculties — Gryffindor, Slytherin, Ravenclaw, and Hufflepuff. Discover the unique values, house colors, and defining characteristics that shape each faculty's identity.*
 
 
-## Spellbook:
+### Spellbook:
 
 
  *Access an extensive spellbook from the API to learn new spells and enchantments.*
 
 
-## Professors and Staff Information:
+### Professors and Staff Information:
 
 
 *Discover the dedicated faculty and staff members at Hogwarts School of Witchcraft and Wizardry. The app provides information about the diverse roles, including professors specializing in various subjects, dedicated caretakers, librarians, and the caring nurses. Thanks to the implemented filter method, sorting between professors and staff members becomes effortless. Explore the detailed descriptions and backgrounds of each staff member according to their respective roles, making it a seamless experience to navigate between the two categories. Feel free to explore the rich details and distinct roles of professors and staff members with ease, making your journey through the magical world of Hogwarts more immersive and enjoyable.*
 
  
- ## Book Collection:
+ ### Book Collection:
 
  
 *Explore the collection of magical books available at Hogwarts.*
 
  
- ## Nice and catchy UI
+ ### Nice and catchy UI
 
  
 *for a great user experience.*
