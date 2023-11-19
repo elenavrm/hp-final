@@ -73,6 +73,8 @@ const ImgMediaContent = () => {
               fontSize={'20px'}
               fontWeight={'bold'}
               textAlign={'justify'}
+              hyphens={'auto'}
+              word-spacing={'0,5px'}
               >
                     {showMore[index]
                 ? card.description

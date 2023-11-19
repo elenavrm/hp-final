@@ -1,16 +1,17 @@
-import castle from './castle.png'
+
+import Animation from './Animation';
 import './styles.css'
 
 function Home() {
     return (
         <div>
         <div className="home-container">
-            <h1 className='home-title'><span className="w">W</span>elcome to  <span className="w">H</span>ogwarts </h1>
-            <h2 className="rest"> School of Witchcraft and  Wizardry</h2>
-        </div>
-        <div className='castle'>
-            <img src={castle} alt='Hogwarts castle'/>
-        </div>
+        <h1 className='home-title'><span className="w">W</span>elcome to  <span className="w">H</span>ogwarts </h1>
+        <h2 className="rest"> School of Witchcraft and  Wizardry</h2>
+    </div>
+    <div>
+        <Animation />
+    </div>
         <div className='home-container'>
             <p className='overview'>
                 <span className='space'>S </span>tep into the hallowed corridors of  Hogwarts School of Witchcraft and Wizardry

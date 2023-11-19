@@ -31,7 +31,7 @@ const ImgMediaContent = () => {
           <CardMedia 
           component="img" 
           alt="Hogwarts subject" 
-          height="145" 
+          height="150" 
           image={card.imageUrl} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" 
@@ -57,6 +57,8 @@ const ImgMediaContent = () => {
                 fontSize={'20px'}
                 fontWeight={'bold'}
                 textAlign={'justify'}
+                hyphens={'auto'}
+                word-spacing={'0,5px'}
               >
               {showMore[index]
                 ? card.description

@@ -58,7 +58,9 @@ const ImgMediaContent = () => {
                 fontFamily={'Open Sans'}
                 textAlign={'justify'}
                 fontSize={'20px'}
-                fontWeight={'bold'}>
+                fontWeight={'bold'}
+                hyphens={'auto'}
+                word-spacing={'0,5px'}>
               {showMore[index]
                 ? card.description
                 : `${card.description.substring(0, 116) + '...'}`}

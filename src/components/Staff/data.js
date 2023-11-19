@@ -9,7 +9,7 @@ export const data = [
     {
         person: `Alastor "Mad-Eye" Moody`,
         title: 'Defence Against the Dark Arts',
-        description: `Moody is appointed as Defence Against the Dark Arts teacher in Harry Potter and the Goblet of Fire (Harry's fourth year at Hogwarts). A former Auror, he gained his nickname for the magical eye he wears to replace one he lost in the line of duty. At the end of the book, Moody is revealed as an impostor, Bartemius Crouch Junior, who had captured the real Moody one day before the start of term as part of a plan to deliver Harry to Voldemort to help his resurrection.`,
+        description: `Moody is appointed as Defence Against the Dark Arts teacher during the Triwizard Tournament. A former Auror, he gained his nickname for the magical eye he wears to replace one he lost in the line of duty. At the end of the book, Moody is revealed as an impostor, Bartemius Crouch Junior, who had captured the real Moody one day before the start of term as part of a plan to deliver Harry to Voldemort to help his resurrection.`,
         searchTerm: 'professor',
         imageUrl: 'https://www.sosyncd.com/wp-content/uploads/2021/10/image-26.jpeg'
     },
