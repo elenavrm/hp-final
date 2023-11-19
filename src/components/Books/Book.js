@@ -15,7 +15,7 @@ const Book = ({ book }) => {
         <h3>
           {showMore
             ? book.description
-            : book.description.substring(0, 125) + '...'}
+            : book.description.substring(0, 111) + '...'}
           <button className="show-btn" onClick={() => setShowMore(!showMore)}>
             {showMore ? 'show less' : 'show more'}
           </button>
