@@ -1,4 +1,4 @@
-export const StaffData = [
+export const data = [
     {
         person: 'Albus Dumbledore',
         title: `Transfiguration|Deputy Headmaster|Headmaster`,
@@ -84,4 +84,4 @@ export const StaffData = [
         imageUrl: 'https://assets.telegraphindia.com/telegraph/2023/May/1683697957_miriam-margolyes.jpg'
     },
 ]
-    
+

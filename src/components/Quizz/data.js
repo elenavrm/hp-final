@@ -1,4 +1,4 @@
-export const questions = [
+export const data = [
     {
         questionText: 'What class interests you the most?',
         options: [

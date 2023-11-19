@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from "react";
 import './styles.css';
-import { questions } from './Questions.js';
+import { data } from "./data";
 import hogwarts from './hogwarts.png';
 
 function Quizz() {
@@ -33,7 +33,7 @@ function Quizz() {
 }
 
         const nextQuestion = currentQuestion + 1;
-        if (nextQuestion < questions.length) {
+        if (nextQuestion < data.length) {
             setCurrentQuestion(nextQuestion);
         } else {
             setSHowHouse(true);
@@ -97,12 +97,12 @@ function Quizz() {
                                 <div className='part-two'>
                                     <div className='question-section'>
                                         <div className='question-count'>
-                                            <span>Question {currentQuestion + 1}</span>/{questions.length}
+                                            <span>Question {currentQuestion + 1}</span>/{data.length}
                                         </div>
-                                        <div className='question-text'>{questions[currentQuestion].questionText}</div>
+                                        <div className='question-text'>{data[currentQuestion].questionText}</div>
                                     </div>
                                     <div className='answer-section'>
-                                        {questions[currentQuestion].options.map((option) => (
+                                        {data[currentQuestion].options.map((option) => (
                                             <button className="btnAnswer" onClick={() => { answerHandler(option.gryffindor, option.slytherin, option.ravenclaw, option.hufflepuff); }}>{option.optionText}</button>
                                         ))}
                                     </div>

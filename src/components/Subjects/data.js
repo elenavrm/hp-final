@@ -1,4 +1,4 @@
-export const CardData = [
+export const data = [
     {
       title: 'Astronomy',
       professor: 'Professor Sinistra',

@@ -67,7 +67,7 @@
     }
 
     .book-cover {
-      width: 165px;
+      width: 200px;
 
     }
   
@@ -76,7 +76,7 @@
     }
   
     h3, .show-btn {
-      font-size: 14px;
+      font-size: 15px;
       margin-left: 20px;
       margin-right: 20px;
     }
@@ -85,5 +85,6 @@
       font-size: 15px;
       width: 70px;
       padding: 7px;
+      margin-bottom:50px ;
     }
 }

@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { data } from './data';
 
+
 const ImgMediaContent = () => {
   const [showMore, setShowMore] = useState({});
 
@@ -17,21 +18,22 @@ const ImgMediaContent = () => {
 
   return (
     <div style={{ 
-        display: 'flex', 
-        justifyContent: 'space-around', 
-        gap: '20px', 
-        flexWrap: 'wrap',
+        display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'space-evenly',
         marginBottom: '50px' }}>
       {data.map((card, index) => (
         <Card key={index} 
         sx={{ 
-        maxWidth: 345, 
+        maxWidth: '500px', 
+        marginBottom: '20px',
         backgroundColor: '#cfb87c', 
         border: '1px solid #c09a46'}}>
-          <CardMedia 
+        <CardMedia 
           component="img" 
-          alt="Hogwarts subject" 
-          height="145" 
+          alt="Hogwarts Founders" 
+          width="400"
+          height="450" 
           image={card.imageUrl} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" 
@@ -40,7 +42,7 @@ const ImgMediaContent = () => {
               fontFamily: 'Montecarlo', 
               fontSize: '35px', 
               fontWeight: 'bolder' }}>
-              {card.title}
+              {card.name}
             </Typography>
             <Typography gutterBottom variant="h6" component="div" 
               sx={{ 
@@ -48,7 +50,7 @@ const ImgMediaContent = () => {
                 fontFamily: 'Open Sans',
                 fontWeight: 'bolder'
                 }}>
-              {card.professor}
+              {card.house}
             </Typography>
             <Typography variant="body2" 
                 color="#000" 
@@ -56,7 +58,7 @@ const ImgMediaContent = () => {
                 fontWeight={'bolder'}>
               {showMore[index]
                 ? card.description
-                : `${card.description.substring(0, 107)}...`}
+                : `${card.description.substring(0, 104)}...`}
               <button className="show-button" onClick={() => toggleShowMore(index)}>
                 {showMore[index] ? 'show less' : 'show more'}
               </button>

@@ -29,7 +29,7 @@ const ImgMediaCard = ({ people }) => {
         border: '1px solid #c09a46'}}>
           <CardMedia 
           component="img" 
-          alt="Hogwarts subject" 
+          alt="Hogwarts Staff" 
           height="178" 
           image={card.imageUrl} />
           <CardContent>

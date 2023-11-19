@@ -17,7 +17,7 @@
 
 .star:before {
   color: transparent;
-  text-shadow: 0 0 3px rgb(214, 214, 135);
+  text-shadow: 0 0 7px rgb(214, 214, 135);
 }
 
 .star:after {
@@ -54,6 +54,7 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+  text-shadow: 3px 3px 7px yellow;
   font-size: 18px;
   font-weight: bolder;
 }

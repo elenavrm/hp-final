@@ -17,46 +17,61 @@ const ImgMediaContent = () => {
 
   return (
     <div style={{ 
-        display: 'flex', 
-        justifyContent: 'space-around', 
-        gap: '20px', 
-        flexWrap: 'wrap',
-        marginBottom: '50px' }}>
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'space-evenly',
+      marginBottom: '50px'
+    }}>
       {data.map((card, index) => (
         <Card key={index} 
-        sx={{ 
-        maxWidth: 345, 
-        backgroundColor: '#cfb87c', 
-        border: '1px solid #c09a46'}}>
+          sx={{ 
+            maxWidth: '500px', 
+            marginBottom: '20px',
+            backgroundColor: '#cfb87c', 
+            border: '1px solid #c09a46'
+          }}>
           <CardMedia 
-          component="img" 
-          alt="Hogwarts subject" 
-          height="145" 
-          image={card.imageUrl} />
+            component="img" 
+            alt="Hogwarts Faculties" 
+            width="400"
+            height="450" 
+            image={card.imgUrl} 
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div" 
-            sx={{ 
-              color: '#000', 
-              fontFamily: 'Montecarlo', 
-              fontSize: '35px', 
-              fontWeight: 'bolder' }}>
-              {card.title}
+              sx={{ 
+                color: '#000', 
+                fontFamily: 'Montecarlo', 
+                fontSize: '35px', 
+                fontWeight: 'bolder' 
+              }}>
+              {card.name}
             </Typography>
+        
             <Typography gutterBottom variant="h6" component="div" 
               sx={{ 
                 color: '#000', 
                 fontFamily: 'Open Sans',
                 fontWeight: 'bolder'
-                }}>
-              {card.professor}
+              }}>
+              House Values: {card.houseValues}
+            </Typography>
+        
+            <Typography gutterBottom variant="h6" component="div" 
+              sx={{ 
+                color: '#000', 
+                fontFamily: 'Open Sans',
+                fontWeight: 'bolder'
+              }}>
+              Head of House: {card.headHouse}
             </Typography>
             <Typography variant="body2" 
-                color="#000" 
-                fontFamily={'Open Sans'}
-                fontWeight={'bolder'}>
-              {showMore[index]
+              color="#000" 
+              fontFamily={'Open Sans'}
+              fontWeight={'bolder'}>
+                    {showMore[index]
                 ? card.description
-                : `${card.description.substring(0, 107)}...`}
+                : `${card.description.substring(0, 101)}...`}
               <button className="show-button" onClick={() => toggleShowMore(index)}>
                 {showMore[index] ? 'show less' : 'show more'}
               </button>
@@ -69,3 +84,4 @@ const ImgMediaContent = () => {
 };
 
 export default ImgMediaContent;
+

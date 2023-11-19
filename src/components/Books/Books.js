@@ -1,42 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import Book from './Book';
+import { data} from './data';
 import './styles.css';
-import { BooksData } from './BooksData';
 
-function Book({ book }) {
-  const [showMore, setShowMore] = useState(false);
-
-  return (
-    <div>
-      <div className="container">
-        <img src={book.image} 
-        className='book-cover' 
-        alt="book cover" 
-        width="250px" />
-      </div>
-      <div className="container">
-        <h2 className='main-book'>{book.book}</h2>
-      </div>
-      <div className="container">
-        <h3>
-          {showMore
-            ? book.description
-            : book.description.substring(0, 111) + '...'}
-          <button className="show-btn" onClick={() => setShowMore(!showMore)}>
-            {showMore ? 'show less' : 'show more'}
-          </button>
-        </h3>
-      </div>
-    </div>
-  );
-}
-
-function Books() {
-  const [currentIndex, setCurrentIndex] = useState(Array(BooksData.length).fill(0));
+const Books = () => {
+  const [currentIndex, setCurrentIndex] = useState(Array(data.length).fill(0));
 
   const previousBook = (seriesIndex) => {
     setCurrentIndex((prevIndex) => {
       const newIndex = [...prevIndex];
-      newIndex[seriesIndex] = newIndex[seriesIndex] ? newIndex[seriesIndex] - 1 : BooksData[seriesIndex].books.length - 1;
+      newIndex[seriesIndex] = newIndex[seriesIndex] ? newIndex[seriesIndex] - 1 : data[seriesIndex].books.length - 1;
       return newIndex;
     });
   };
@@ -44,7 +17,7 @@ function Books() {
   const nextBook = (seriesIndex) => {
     setCurrentIndex((prevIndex) => {
       const newIndex = [...prevIndex];
-      newIndex[seriesIndex] = newIndex[seriesIndex] === BooksData[seriesIndex].books.length - 1 ? 0 : newIndex[seriesIndex] + 1;
+      newIndex[seriesIndex] = newIndex[seriesIndex] === data[seriesIndex].books.length - 1 ? 0 : newIndex[seriesIndex] + 1;
       return newIndex;
     });
   };
@@ -60,9 +33,9 @@ function Books() {
   return (
     <div>
       <div className="container">
-        <h1>Wizarding World Book Series</h1>
+        <h1>Wizarding World Library</h1>
       </div>
-      {BooksData.map((element, index) => {
+      {data.map((element, index) => {
         const { id, name, books } = element;
         return (
           <div key={id}>
@@ -83,6 +56,6 @@ function Books() {
       })}
     </div>
   );
-}
+};
 
 export default Books;

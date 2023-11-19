@@ -1,4 +1,4 @@
-export const BooksData = [
+export const data = [
     {
         id: 1,
         name: "HARRY POTTER COLLECTION",
