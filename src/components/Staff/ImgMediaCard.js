@@ -43,7 +43,7 @@ const ImgMediaCard = ({ people }) => {
             </Typography>
             <Typography gutterBottom variant="h6" component="div" 
               sx={{ 
-                color: '#000', 
+                color: '#134024',
                 fontFamily: 'Open Sans',
                 fontSize: '23px',
                 fontWeight: 'bold'
@@ -57,7 +57,7 @@ const ImgMediaCard = ({ people }) => {
                 fontWeight={'bold'}
                 textAlign={'justify'}
                 hyphens={'auto'}
-                wordSpacing={'0.5px'}
+                wordSpacing={'-0.5px'}
                 >
               {showMore[index]
                 ? card.description

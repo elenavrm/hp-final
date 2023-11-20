@@ -44,7 +44,7 @@ const ImgMediaContent = () => {
             </Typography>
             <Typography gutterBottom variant="h6" component="div" 
               sx={{ 
-                color: '#000', 
+                color: '#134024', 
                 fontFamily: 'Open Sans',
                 fontSize: '25px',
                 fontWeight: 'bold'
@@ -52,13 +52,13 @@ const ImgMediaContent = () => {
               {card.professor}
             </Typography>
             <Typography variant="body2" 
-                color="#000" 
+                color= {"#000"}
                 fontFamily={'Open Sans'}
                 fontSize={'20px'}
                 fontWeight={'bold'}
                 textAlign={'justify'}
                 hyphens={'auto'}
-                word-spacing={'0.5px'}
+                word-spacing={'-0.5px'}
               >
               {showMore[index]
                 ? card.description

@@ -23,7 +23,7 @@
     font-size: 20px;
     text-align: justify;
     hyphens: auto;
-    word-spacing: 0.5px;
+    word-spacing: -0.5px;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Open Sans', sans-serif;

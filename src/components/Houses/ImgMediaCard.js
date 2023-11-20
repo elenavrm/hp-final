@@ -55,7 +55,7 @@ const ImgMediaContent = () => {
                 fontSize: '24px',
                 fontWeight: 'bolder'
               }}>
-              House Values: {card.houseValues}
+              <span style={{color:'#134024'}}> House Values: </span> {card.houseValues}
             </Typography>
         
             <Typography gutterBottom variant="h6" component="div" 
@@ -65,7 +65,7 @@ const ImgMediaContent = () => {
                 fontSize: '24px',
                 fontWeight: 'bolder'
               }}>
-              Head of House: {card.headHouse}
+              <span style={{color:'#134024'}}> Head of House: </span>{card.headHouse}
             </Typography>
             <Typography variant="body2" 
               color="#000" 
@@ -74,7 +74,7 @@ const ImgMediaContent = () => {
               fontWeight={'bold'}
               textAlign={'justify'}
               hyphens={'auto'}
-              wordSpacing={'0.5px'}
+              wordSpacing={'-0.5px'}
               >
                     {showMore[index]
                 ? card.description

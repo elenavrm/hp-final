@@ -5,12 +5,12 @@ import Spells from './components/Spells/Spells';
 import Books from './components/Books/Books';
 import Home from './components/Home/Home';
 import Subjects from './components/Subjects/Subjects';
-import './App.css';
-import Stars from './Stars';
 import Staff from './components/Staff/Staff';
 import Founders from './components/Founders/Founders';
 import Houses from './components/Houses/Houses';
+import Stars from './Stars';
 import Menu from './Menu';
+import './App.css';
 
 function App() {
   return (
