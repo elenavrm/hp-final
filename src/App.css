@@ -77,6 +77,7 @@ nav {
   background-color: transparent;
   border: none;
   color: #fff8ee;
+  text-shadow: 3px 3px 7px yellow;
   font-weight:900;
   font-size: 30px;
   cursor: pointer;
@@ -84,7 +85,7 @@ nav {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   nav {
     display: flex;
     justify-content: space-between;
