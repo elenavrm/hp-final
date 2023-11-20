@@ -15,9 +15,7 @@ import Menu from './Menu';
 function App() {
   return (
     <Router>
-      <nav>
         <Menu />
-      </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/founders" element={<Founders />} />

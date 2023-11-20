@@ -13,7 +13,7 @@ const Menu = () => {
   };
 
   return (
-    <div>
+    <nav>
       <div className={`links ${isMenuOpen ? 'show' : ''}`}>
         <Link to="/" className="link" onClick={closeMenu}>
           Home
@@ -46,7 +46,7 @@ const Menu = () => {
       <button className="burger-btn" onClick={toggleMenu}>
         ☰
       </button>
-    </div>
+      </nav>
   );
 };
 
