@@ -11,6 +11,7 @@ import Houses from './components/Houses/Houses';
 import Stars from './Stars';
 import Menu from './Menu';
 import './App.css';
+import Cart from './components/Cart/Cart';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path="/books" element={<Books />} />
       </Routes>
       <Stars />
+      <Cart />
+    
     </Router>
   );
 }

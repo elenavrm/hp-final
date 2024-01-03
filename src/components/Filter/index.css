@@ -1,0 +1,26 @@
+.filter-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryButton:hover {
+    background-color: #beb27e;
+  }
+  .categoryButtonSelected {
+    background-color: #c09b46;
+  }
+  
+  .categoryButton {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+  }
+
+
+@media all and (max-width: 768px) {
+    .filter-category {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

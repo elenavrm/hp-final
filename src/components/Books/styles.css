@@ -66,6 +66,20 @@
     cursor: pointer;
     font-weight: bolder;
   }
+
+  .add-btn {
+    background-color: transparent;
+    border: 1px solid #bb9644;
+    color: #fefefe;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  
+  .add-btn:hover {
+    background-color: #c09b46;
+  }
   
   @media all and (max-width: 500px) {
     h1 {
