@@ -70,15 +70,24 @@
   .add-btn {
     background-color: transparent;
     border: 1px solid #bb9644;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
     color: #fefefe;
-    padding: 10px;
+    text-shadow: 2px 2px 8px yellow;
+    padding: 15px;
     margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 10px;
+    cursor: pointer;
   }
   
   .add-btn:hover {
     background-color: #c09b46;
+  }
+
+  .price {
+    color: gold;
   }
   
   @media all and (max-width: 500px) {
