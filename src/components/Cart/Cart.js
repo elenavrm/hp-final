@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { getCartItems, getTotalPrice } from '../../redux/cartSlice';
 import CartItem from './CartItem';
 import ChangeQuantity from './ChangeQuantity';
+import snitch from './snitch_wings_up.png';
 import './Modal.css';
 
 const Cart = ({ isOpen, toggleCart }) => {
@@ -15,19 +16,28 @@ const Cart = ({ isOpen, toggleCart }) => {
     <div>
       <div className="overlay" onClick={toggleCart} />
       <div className="cart-modal">
-        <div className="close-btn" onClick={toggleCart}>
+        <div className="closed-btn" onClick={toggleCart}>
           <span>&times;</span>
         </div>
+        <div className='container'>
         <h1>Your Cart</h1>
+        </div>
         <hr className='divider' />
-
         {cartItems.length === 0 ? (
-          <h4>Your Cart Is Empty...</h4>
+            <div>
+            <div className='container'>
+          <h4 className='g-total'>Your Cart Is Empty...</h4>
+            </div>
+            <div className='container'>
+          <img className='snitch' src={snitch} alt='Sparkles' />
+            </div>
+            </div>
         ) : (
           <div>
-            <h4>GRAND TOTAL: ${totalPrice.toFixed(2)}</h4>
+          <div className='container'>
+            <h4 className='g-total'>GRAND TOTAL: ${totalPrice.toFixed(2)}</h4>
+          </div>
             <hr className='divider' />
-
             {cartItems.map((cartItem) => (
               <div key={cartItem.id}>
                 <CartItem cartItem={cartItem} />
@@ -38,10 +48,11 @@ const Cart = ({ isOpen, toggleCart }) => {
             ))}
           </div>
         )}
-
-        <button className='btn' onClick={toggleCart}>CONTINUE SHOPPING</button>
+          <div className='container'>
+        <button className='btn-shopping' onClick={toggleCart}>CONTINUE SHOPPING</button>
+          </div>
         {cartItems.length !== 0 && (
-          <div>
+          <div className='container'>
             <button className='checkout'>CHECKOUT</button>
           </div>
         )}

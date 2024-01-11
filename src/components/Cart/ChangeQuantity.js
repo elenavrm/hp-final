@@ -15,7 +15,7 @@ const ChangeQuantity = ({ cartItem }) => {
 
 
   return (
-    <div>
+    <div className='container'>
       <button className='quantity' onClick={handleIncrease}> + </button>
       <span className='number'> {cartItem.quantity} </span>
       <button className='quantity' onClick={handleDecrease}> - </button>

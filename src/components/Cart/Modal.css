@@ -28,6 +28,20 @@
     overflow-y: auto;
 }
 
+.btn-shopping {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: #f9f1d8;
+    border: 1px solid #c09b46;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-shopping:hover {
+    background-color: #c09b46;
+}
+
 .btn-one {
     padding: 10px 15px;
     margin-top: 10px;
@@ -38,7 +52,7 @@
     cursor: pointer;
   }
   
-  .btn-one:hover {
+  .btn-one :hover {
     background-color: #c09b46;
   }
   
@@ -55,7 +69,7 @@
     width: 100%; 
 }
 
-.close-btn {
+.closed-btn {
   position: absolute;
   top: 5px;
   right: 10px;
@@ -64,9 +78,56 @@
   color: gold;
 }
 
-.close-btn:hover {
-  color: #ab0b0f;
+.closed-btn :hover {
+    color: #ab0b0f;
+  }
+
+.icon {
+    width: 70px;
+  }
+
+.g-total {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: gold;
 }
+
+.checkout {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #c09b46;
+    border: 1px solid gold;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .quantity {
+    width: 60px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #c09b46;
+    border-radius: 3px;
+    color: #f9f1d8;
+    font-size: 20px;
+  }
+  
+  .number {
+    color: gold;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+.book-price {
+    color: #c09b46;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.snitch {
+    width: 150px; 
+    margin-top: 10px; 
+  }
 
 @media screen and (max-width: 768px) {
    .cart-modal {

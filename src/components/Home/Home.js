@@ -1,6 +1,6 @@
-
 import Animation from './Animation';
 import './styles.css'
+
 
 function Home() {
     return (

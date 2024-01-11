@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Book from './Book';
 import data from './data';
-import { useSelector } from "react-redux";
-import { getSelectedCategory } from "../../redux/booksSlice";
+import { useSelector } from 'react-redux';
+import { getSelectedCategory } from '../../redux/booksSlice';
 import './styles.css';
 import AllCategories from '../Filter/AllCategories';
 
@@ -37,6 +37,8 @@ const Books = () => {
     };
   }, []);
 
+  const filteredData = selectedCategory === 'ALL BOOKS' ? data : data.filter((element) => element.category === selectedCategory);
+
   return (
     <div>
       <div className="container">
@@ -45,29 +47,24 @@ const Books = () => {
       <div className='container'>
         <AllCategories />
       </div>
-      {data.map((element, index) => {
-        const { id, name, books } = element;
-        const showCategory = selectedCategory === 'ALL BOOKS' || selectedCategory === name;
+      {filteredData.map((element, id) => {
+        const { name, books } = element;
         
         return (
-          showCategory && (
-            <div key={id}>
-              <div className='container'>
-                <h2>{name}</h2>
-              </div>
-              <Book book={books[currentIndex[index]]} />
-              {showCategory && ( // Only render buttons if showCategory is true
-                <div className="btn container">
-                  <button className="btnOne" onClick={() => previousBook(index)}>
-                    back
-                  </button>
-                  <button className="btnOne" onClick={() => nextBook(index)}>
-                    next
-                  </button>
-                </div>
-              )}
+          <div key={id}>
+            <div className='container'>
+              <h2>{name}</h2>
             </div>
-          )
+            <Book key={id}  book={books[currentIndex[id]]} />
+            <div className="btn container">
+              <button className="btnOne" onClick={() => previousBook(id)}>
+                back
+              </button>
+              <button className="btnOne" onClick={() => nextBook(id)}>
+                next
+              </button>
+            </div>
+          </div>
         );
       })}
     </div>
