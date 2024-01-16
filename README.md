@@ -37,10 +37,10 @@ Welcome to the magical world of Hogwarts School of Witchcraft and Wizardry! This
 *Discover the dedicated faculty and staff members at Hogwarts School of Witchcraft and Wizardry. The app provides information about the diverse roles, including professors specializing in various subjects, dedicated caretakers, librarians, and the caring nurses. Thanks to the implemented filter method, sorting between professors and staff members becomes effortless. Explore the detailed descriptions and backgrounds of each staff member according to their respective roles, making it a seamless experience to navigate between the two categories. Feel free to explore the rich details and distinct roles of professors and staff members with ease, making your journey through the magical world of Hogwarts more immersive and enjoyable.*
 
  
- ### Book Collection:
+ ### Book Store Collection:
 
  
-*Explore the collection of magical books available at Hogwarts.*
+*The app includes a built-in Bookstore section where you can choose books from slides divided into filtered sections and add them to the cart. You can change the quantity of selected books and delete them from the cart.*
 
  
  ### Nice and catchy UI
@@ -58,6 +58,7 @@ This project is built using:
 - **React**: Utilized the power and flexibility of React to create a dynamic and interactive user experience.
 - **React Router**: Implemented React Router for managing navigation and enabling a multi-page user experience within a single-page application.
 - **React Hooks**: Leveraged a variety of React hooks to manage state, effects, and more, ensuring smooth functionality.
+- **Redux**: Implemented Redux for state management, providing a centralized store to manage the application's global state, especially in the Bookstore section.
 - **Responsive Design**: Crafted with responsiveness in mind, the app provides an optimized experience across various devices.
 - **Customized Loader**: Implemented loader for a seamless user experience during data fetching.
 - **Material-UI (MUI)**: Leveraged Material-UI components for building UI elements, and customized extensively to align with specific design requirements.
