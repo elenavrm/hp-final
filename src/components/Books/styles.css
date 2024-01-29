@@ -8,7 +8,7 @@
     font-family: 'Montecarlo', cursive;
     font-weight: 300;
     color: #fff8ee;
-    text-shadow: 2px 2px 6px #c09b46;
+    text-shadow: 2px 2px 4px #c09b46;
   }
 
   h2 {
@@ -97,7 +97,7 @@
     }
 
     .main-book {
-      font-size: 27px;
+      font-size: 28px;
     }
 
     .book-cover {
@@ -114,7 +114,12 @@
     }
 
     .btnOne {
-      width: 150px;
+      width: 140px;
       padding: 9px;
+    }
+
+    .add-btn {
+      width: 150px;
+      padding: 10px;
     }
 }

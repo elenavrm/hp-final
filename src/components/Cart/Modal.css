@@ -125,9 +125,19 @@
 }
 
 .snitch {
-    width: 150px; 
-    margin-top: 10px; 
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.snitch img {
+  width: auto; 
+  height: auto; 
+  max-height: 40%; 
+}
 
 @media screen and (max-width: 768px) {
    .cart-modal {

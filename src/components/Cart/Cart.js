@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 import { getCartItems, getTotalPrice } from '../../redux/cartSlice';
 import CartItem from './CartItem';
 import ChangeQuantity from './ChangeQuantity';
-import snitch from './snitch_wings_up.png';
 import './Modal.css';
+import EmptyCartAnimation from './EmptyCartAnimation';
 
 const Cart = ({ isOpen, toggleCart }) => {
   const cartItems = useSelector(getCartItems);
@@ -29,7 +29,7 @@ const Cart = ({ isOpen, toggleCart }) => {
           <h4 className='g-total'>Your Cart Is Empty...</h4>
             </div>
             <div className='container'>
-          <img className='snitch' src={snitch} alt='Sparkles' />
+          <EmptyCartAnimation />
             </div>
             </div>
         ) : (

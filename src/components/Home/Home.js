@@ -6,7 +6,7 @@ function Home() {
     return (
         <div>
         <div className="home-container">
-        <h1 className='home-title'><span className="w">W</span>elcome to  <span className="w">H</span>ogwarts </h1>
+        <h1 className='home-title'><span className="light">W</span>elcome to  <span className="light">H</span>ogwarts </h1>
         <h2 className="rest"> School of Witchcraft and  Wizardry</h2>
     </div>
     <div>

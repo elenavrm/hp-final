@@ -22,7 +22,7 @@
     margin-top: 0;
 }
 
-.w {
+.light {
     font-size: 85px;
     font-weight: 100;
     color: #c09b46;
@@ -72,7 +72,7 @@
         text-align: center;
     }
 
-    .w {
+    .light {
         font-size: 40px;
     }
 
