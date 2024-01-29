@@ -82,10 +82,11 @@ nav {
   font-size: 30px;
   cursor: pointer;
   margin-right: 8px;
+  z-index: 4;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 840px) {
   nav {
     display: flex;
     justify-content: space-between;
