@@ -34,6 +34,7 @@
     background-color: transparent;
     color: #f9f1d8;
     border: 1px solid #c09b46;
+    text-shadow: 2px 2px 4px yellow;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -137,11 +138,19 @@
   width: auto; 
   max-width: 100%;
   height: auto; 
-  max-height: 30%; 
+  max-height: 25vh;
 }
 
 @media screen and (max-width: 768px) {
    .cart-modal {
     min-width: 80%;
    }
+
+   .cart-icon {
+    width: 130px;
+   }
+
+   .snitch img {
+    max-height: 20vh; 
+  }
 }
