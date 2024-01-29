@@ -1,8 +1,9 @@
 .filter-category{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     color: #fff8ee;
+    font-size: 19px;
     text-shadow: 3px 3px 7px yellow;
     font-weight: bolder;
 }

@@ -44,9 +44,12 @@ const Books = () => {
       <div className="container">
         <h1>Wizarding World Library</h1>
       </div>
+
+      <hr /> 
       <div className='container'>
         <AllCategories />
       </div>
+      <hr />
       {filteredData.map((element, id) => {
         const { name, books } = element;
         

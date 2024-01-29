@@ -91,6 +91,14 @@
   .price {
     color: gold;
   }
+
+  hr {
+    border: none; 
+    height: 1px; 
+    background-color: #c09b46;
+    width: 100%; 
+    margin-bottom: 20px;
+  }
   
   @media all and (max-width: 500px) {
     h1 {
