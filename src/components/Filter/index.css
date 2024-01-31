@@ -26,11 +26,12 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 17px;
-    border: 1px solid #006501;
+    border: 1px solid #008001;
+    box-shadow: 3px 3px 7px #008001;
   }
 
   .Toastify__progress-bar--default {
-    background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+    background: green;
 }
 
 
