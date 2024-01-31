@@ -21,6 +21,16 @@
     padding: 5px;
   }
 
+  .custom-toast {
+    background-color: #093104;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #f9f1d8;
+    text-shadow: 3px 3px 7px #c5a734;
+    border: 2px solid #c5a734;
+  }
+
 
 @media all and (max-width: 768px) {
     .filter-category {

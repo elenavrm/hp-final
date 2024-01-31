@@ -5,6 +5,8 @@ import { useSelector } from 'react-redux';
 import { getSelectedCategory } from '../../redux/booksSlice';
 import './styles.css';
 import AllCategories from '../Filter/AllCategories';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Books = () => {
   const [currentIndex, setCurrentIndex] = useState(Array(data.length).fill(0));
@@ -41,6 +43,7 @@ const Books = () => {
 
   return (
     <div>
+    <ToastContainer position="top-right"/>
       <div className="container">
         <h1>Wizarding World Library</h1>
       </div>
