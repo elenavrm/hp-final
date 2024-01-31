@@ -28,6 +28,7 @@
     font-size: 17px;
     border: 1px solid #008001;
     box-shadow: 3px 3px 7px #008001;
+    border-radius: 5px;
   }
 
   .Toastify__progress-bar--default {
