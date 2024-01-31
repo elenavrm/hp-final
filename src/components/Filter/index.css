@@ -22,14 +22,16 @@
   }
 
   .custom-toast {
-    background-color: #093104;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 17px;
-    color: #f9f1d8;
-    text-shadow: 3px 3px 7px #c5a734;
-    border: 2px solid #c5a734;
+    border: 1px solid #006501;
   }
+
+  .Toastify__progress-bar--default {
+    background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+}
 
 
 @media all and (max-width: 768px) {

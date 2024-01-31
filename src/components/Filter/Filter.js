@@ -10,7 +10,7 @@ const Filter = ({ category }) => {
   const selectedCategory = useSelector(getSelectedCategory);
 
   const showToastMessage = () => {
-    toast("Free shipping only for WIZZARDS!", {
+    toast("free shipping only for WIZZARDS!", {
         toastId: 'selectedCategory', 
         className: "custom-toast",
         autoClose: 5000,
